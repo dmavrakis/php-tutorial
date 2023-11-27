@@ -45,7 +45,8 @@
             background-color: #eee;
         }
 
-        input {
+        input,
+        textarea {
             margin: 4px;
             padding: 8px;
             width: 100%;
