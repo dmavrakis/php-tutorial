@@ -11,12 +11,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $query = "insert into users (username, email, password, date) values ('$username', '$email', '$password', '$date')";
 
     $result = mysqli_query($con, $query);
-    print_r($result);
 
     header("Location: login.php");
     die;
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
